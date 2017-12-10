@@ -20,6 +20,6 @@ public class LoginModel implements LoginActivityMVP.Model {
 
     @Override
     public User getUser() {
-        return repository.getUser() ;
+        return repository.getUser();
     }
 }

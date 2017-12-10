@@ -21,6 +21,7 @@ public interface LoginActivityMVP {
         void setView(LoginActivityMVP.View view);
         void loginButtonClicked();
         void getCurrentUser();
+        void saveUser();
     }
     // Model가 갖고 있어야 할 interface 정의
     interface Model {
